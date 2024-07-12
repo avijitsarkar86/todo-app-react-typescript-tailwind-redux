@@ -31,13 +31,13 @@ $ cd todo-app-react-typescript-tailwind-redux
 
 2. Install the dependencies:
 
-```console
+```bash
 $ npm install
 ```
 
 or
 
-```console
+```bash
 $ yarn install
 ```
 
@@ -45,19 +45,19 @@ $ yarn install
 
 Create a .env file in the root of the project and add your environment variables:
 
-```console
-REACT_APP_API_URL=http://your-api-url.com
+```bash
+REACT_APP_API_BASE_URL=http://localhost:3700/api
 ```
 
 ## Running the Application
 
-```console
+```bash
 $ npm install
 ```
 
 or
 
-```console
+```bash
 $ yarn install
 ```
 
@@ -65,9 +65,8 @@ The application will be available at http://localhost:3000.
 
 ## Project Structure
 
-```java
+```bash
 .env
-README.md
 package.json
 postcss.config.js
 [public]
@@ -81,20 +80,17 @@ postcss.config.js
             └── TodoModal.tsx
     ├── index.css
     ├── index.tsx
-    ├── logo.svg
     ├── [pages]
         ├── LoginPage.tsx
         ├── TodoPage.tsx
         └── [css]
             └── react-tabs-custom.css
-    ├── react-app-env.d.ts
     ├── [redux]
         ├── [apis]
             ├── loginApi.ts
             └── todoApi.ts
         ├── [slices]
             ├── authSlice.ts
-            ├── todoSlice.test.ts
             └── todoSlice.ts
         └── [store]
             └── index.ts
