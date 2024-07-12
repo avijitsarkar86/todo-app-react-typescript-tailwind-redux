@@ -21,9 +21,12 @@ This is a Todo Application built with React, TypeScript, Redux Toolkit, Tailwind
 
 1. Clone the repository:
 
-```console
+```bash
+# clone repo
 $ git clone https://github.com/avijitsarkar86/todo-app-react-typescript-tailwind-redux
-$ cd todo-app
+
+# go to local repo
+$ cd todo-app-react-typescript-tailwind-redux
 ```
 
 2. Install the dependencies:
@@ -106,7 +109,7 @@ tsconfig.json
 
 - `TodoModal.tsx`: ModalComponent for adding/updating a new todo.
 - `TodoItem.tsx`: Component for displaying a single todo item.
-- `TodoPage.tsx`: Main page component that displays the todo list, search input, and handles modal states.
+  Zvxb- `TodoPage.tsx`: Main page component that displays the todo list, search input, and handles modal states.
 - `LoginPage.tsx`: Main page component that handles the login and registration of a new user.
 
 ## Redux Store
