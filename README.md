@@ -22,7 +22,7 @@ This is a Todo Application built with React, TypeScript, Redux Toolkit, Tailwind
 1. Clone the repository:
 
 ```console
-$ git clone https://github.com/your-username/todo-app.git
+$ git clone https://github.com/avijitsarkar86/todo-app-react-typescript-tailwind-redux
 $ cd todo-app
 ```
 
