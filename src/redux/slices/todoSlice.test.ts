@@ -33,22 +33,4 @@ describe("todoSlice", () => {
   it("should handle initial state", () => {
     expect(todoReducer(undefined, { type: "unknown" })).toEqual(initialState);
   });
-
-  it('should handle "addTodo"', () => {
-    const prevState = { ...initialState };
-    const newTodo: Todo = {
-      id: "1",
-      title: "test",
-      description: "test desc",
-      status: "pending",
-    };
-
-    // const afterAddAction = addTodo({ token: "fake-token", newTodo });
-    // store.dispatch(addTodo({ token: "fake-token", newTodo }));
-    // expect(todoReducer(prevState, afterAddAction)).toEqual({
-    //   ...initialState,
-    //   todos: [newTodo],
-    // });
-    // jest.spyOn(createTodo)
-  });
 });

@@ -1,0 +1,41 @@
+--- Folder Structure ---
+.env
+README.md
+package.json
+postcss.config.js
+[public]
+    ├── index.html
+    ├── manifest.json.bak
+    └── robots.txt
+[src]
+    ├── App.css
+    ├── App.tsx
+    ├── [components]
+        ├── TodoItem.tsx
+        └── [modals]
+            └── TodoModal.tsx
+    ├── index.css
+    ├── index.tsx
+    ├── logo.svg
+    ├── [pages]
+        ├── LoginPage.tsx
+        ├── TodoPage.tsx
+        └── [css]
+            └── react-tabs-custom.css
+    ├── react-app-env.d.ts
+    ├── [redux]
+        ├── [apis]
+            ├── loginApi.ts
+            └── todoApi.ts
+        ├── [slices]
+            ├── authSlice.ts
+            ├── todoSlice.test.ts
+            └── todoSlice.ts
+        └── [store]
+            └── index.ts
+    ├── reportWebVitals.ts
+    └── setupTests.ts
+tailwind.config.js
+tsconfig.json
+
+--- File Contents ---
