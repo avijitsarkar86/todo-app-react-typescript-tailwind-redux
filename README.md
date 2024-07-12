@@ -69,8 +69,6 @@ package.json
 postcss.config.js
 [public]
     ├── index.html
-    ├── manifest.json.bak
-    └── robots.txt
 [src]
     ├── App.css
     ├── App.tsx
